@@ -1,6 +1,6 @@
 # Dockerzone
 
-[Dangerzone](https://github.com/freedomofpress/dangerzone) isn't available in most Linux distros repositoires. 
+[Dangerzone](https://github.com/freedomofpress/dangerzone) isn't available in most Linux distros repositories. 
 Because of this, one has to add third party repos to their systems package manager, which is not exactly a safe 
 thing to do. 
 

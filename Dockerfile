@@ -19,7 +19,7 @@ RUN git clone https://github.com/freedomofpress/dangerzone
 WORKDIR /app/dangerzone 
 RUN /root/.local/bin/poetry install
 
-# Podman is not available in Ubuntu 20.04 repos. Here's the workaround:
+# Podman is not available in Ubuntu 20.04. Here's the workaround:
 RUN echo "deb https://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable/xUbuntu_20.04/ /" \
  | tee /etc/apt/sources.list.d/devel:kubic:libcontainers:stable.list
 RUN curl -L https://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable/xUbuntu_20.04/Release.key |  apt-key add -
